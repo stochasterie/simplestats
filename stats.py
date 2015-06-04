@@ -20,10 +20,6 @@ def mean(vals):
     return float(total)/length
     
 
-def median(vals):
-    """please implement this function"""
-    return 1
-
 def mode(vals):
     """Computes the mode from a list of values."""
     pass
