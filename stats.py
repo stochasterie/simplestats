@@ -1,3 +1,12 @@
+def median(vals):
+    vals.sort()
+    z = len(vals)
+    index = z / 2
+    if z % 2 == 0:
+       return mean([vals[index], vals[index - 1]])
+    else:
+       return vals[index]
+
 def mean(vals):
     """Computes the mean from a list of values. 
        Let's get this right!"""
